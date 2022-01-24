@@ -1,0 +1,63 @@
+.questions_scene{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('src/assets/fnd3.png');
+    background-size: 112% 64%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description_question{
+    width: 40vw;
+    position: absolute;
+    top: -55vh;
+    height: 35vh;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1em;
+}
+.container_questions{
+    width: 100vw;
+    position: absolute;
+    height: 35vh;
+    display: flex;
+    bottom: 0;
+    background-color: #9F2177;
+    justify-content: center;
+    align-items: center;
+}
+.environment{
+    width: 95vw;
+    height: 33vh;
+    display: flex;
+    display: flex;
+
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ques{
+    width: 45vw;
+    height: 12.5vh;
+    list-style:none;
+    background-color:#ffffff;
+    padding: 1em;
+    margin: 1em;
+    clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0% 50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+.ques:hover{
+    cursor: pointer;
+    background-color:#ffe3f6;
+
+}
+.img_question{
+    margin-top: 4vh;
+    height: 20vh;
+}

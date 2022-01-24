@@ -1,0 +1,9 @@
+.accountant{
+    display: flex;
+    width: 30vw;
+    height: 10vh ;
+    margin-top: 10vh;
+    color: #9F2177;
+    justify-content: center;
+    align-items: center;
+}

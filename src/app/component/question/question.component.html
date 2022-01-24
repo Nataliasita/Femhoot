@@ -1,0 +1,35 @@
+<section class='questions_scene'>
+
+
+    
+
+            <app-accountant> </app-accountant>
+
+
+    <div class="container_questions" *ngFor="let item of itemService.items">
+
+        <div class="description_question">
+
+            <h3>{{item.q}}</h3>
+
+            <img class="img_question" src="{{item.image}}" alt="">
+    
+        </div>
+
+        <div class="environment">
+
+            <div id="block1">
+                   <button type="button" class="ques">{{item.text1}}</button>
+                   <button type="button"  class="ques" >{{item.text2}}</button>
+           </div>
+            <div>
+                   <button type="button" class="ques">{{item.text3}}</button>
+                   <button type="button" class="ques" >{{item.text4}}</button>
+             </div>
+        </div>
+        
+    </div>
+
+
+
+</section>

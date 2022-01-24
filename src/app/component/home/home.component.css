@@ -1,0 +1,55 @@
+.container_home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('src/assets/fnd.png');
+    background-size:  100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title_home{
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+.container_form{
+    width: 30vw;
+    height: 30vh;
+    background-color: hsl(319, 66%, 38%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.form{
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+.nickname{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    outline: none;
+    font-size: 1.3em;
+}
+.btn_init{
+    width: 15vw;
+    height: 8vh;
+    margin-bottom: 0;
+    border-radius: 40px;
+    background: #e05b7c;
+    color: #ffffff;
+    border:none;
+    font-size: 1.3em;
+}
+.btn_init:hover{
+    cursor: pointer;
+    background: #ff789a;
+}

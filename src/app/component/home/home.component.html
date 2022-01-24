@@ -1,0 +1,20 @@
+<section class="container_home">
+    <img class="title_home" src="./assets/title1.png" alt="">
+
+        <div class="container_form">
+
+            <form action="" class="form" [formGroup]="formHome" (submit)="send()">
+
+                <input type="text" class="nickname" placeholder="Nickname" formControlName="name_user">
+
+                <button class="btn_init" [routerLink]="['/questions']" [disabled]="formHome.invalid">Play</button>
+
+            </form>
+
+
+        </div>
+
+
+
+</section>
+
